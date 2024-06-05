@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+MyProject/Content/LSM/Maps/Demonstration/Demonstration.umap filter=lfs diff=lfs merge=lfs -text
+MyProject/Content/Main.fbx filter=lfs diff=lfs merge=lfs -text
+MyProject/MyProject.zip filter=lfs diff=lfs merge=lfs -text
