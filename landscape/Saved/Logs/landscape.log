@@ -1,0 +1,973 @@
+﻿[2024.06.05-17.41.41:474][  0]Log file open, 06/05/24 21:11:41
+[2024.06.05-17.41.41:474][  0]LogInit:Display: Running engine for game: landscape
+[2024.06.05-17.41.41:474][  0]LogPlatformFile: Not using cached read wrapper
+[2024.06.05-17.41.41:474][  0]LogInit:Display: RandInit(396974941) SRandInit(396974947).
+[2024.06.05-17.41.41:474][  0]LogInit: Using version manifest at CL 0 with build ID '3471c36b-cd88-4c5c-b0a4-98829ce8b17e'
+[2024.06.05-17.41.41:474][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2024.06.05-17.41.41:474][  0]LogStats: Stats thread started at 0.085366
+[2024.06.05-17.41.41:474][  0]LogInit: Version: 4.11.0-0+UE4
+[2024.06.05-17.41.41:474][  0]LogInit: API Version: 0
+[2024.06.05-17.41.41:474][  0]LogInit: Compiled (64-bit): Sep 14 2015 02:43:29
+[2024.06.05-17.41.41:474][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2024.06.05-17.41.41:474][  0]LogInit: Build Configuration: Development
+[2024.06.05-17.41.41:474][  0]LogInit: Branch Name: UE4
+[2024.06.05-17.41.41:474][  0]LogInit: Command line: 
+[2024.06.05-17.41.41:474][  0]LogInit: Base directory: I:/Unreal.Engine.4.11/Unreal Engine 4.11.0 Master/Engine/Binaries/Win64/
+[2024.06.05-17.41.41:474][  0]LogInit: Rocket: 0
+[2024.06.05-17.41.41:484][  0]LogInit: Using libcurl 7.41.0
+[2024.06.05-17.41.41:484][  0]LogInit:  - built for x86_64-pc-win32
+[2024.06.05-17.41.41:484][  0]LogInit:  - supports SSL with WinSSL
+[2024.06.05-17.41.41:484][  0]LogInit:  - other features:
+[2024.06.05-17.41.41:484][  0]LogInit:      CURL_VERSION_SSL
+[2024.06.05-17.41.41:484][  0]LogInit:      CURL_VERSION_IPV6
+[2024.06.05-17.41.41:484][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2024.06.05-17.41.41:484][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2024.06.05-17.41.41:484][  0]LogInit:      CURL_VERSION_IDN
+[2024.06.05-17.41.41:484][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2024.06.05-17.41.41:484][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2024.06.05-17.41.41:484][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2024.06.05-17.41.41:484][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2024.06.05-17.41.41:484][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2024.06.05-17.41.41:490][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2024.06.05-17.41.41:495][  0]LogInit: Object subsystem initialized
+[2024.06.05-17.41.41:499][  0]LogInit: Selected Device Profile: [Windows]
+[2024.06.05-17.41.41:499][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.06.05-17.41.41:503][  0]LogInit: Computer: DESKTOP-8T7KCD2
+[2024.06.05-17.41.41:503][  0]LogInit: User: HOSSEIN
+[2024.06.05-17.41.41:503][  0]LogInit: CPU Page size=65536, Cores=4
+[2024.06.05-17.41.41:503][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.06.05-17.41.41:503][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2024.06.05-17.41.41:503][  0]LogMemory: Platform Memory Stats for Windows
+[2024.06.05-17.41.41:503][  0]LogMemory: Process Physical Memory: 54.53 MB used, 54.53 MB peak
+[2024.06.05-17.41.41:503][  0]LogMemory: Process Virtual Memory: 58.95 MB used, 58.95 MB peak
+[2024.06.05-17.41.41:503][  0]LogMemory: Physical Memory: 4526.15 MB used, 8144.43 MB total
+[2024.06.05-17.41.41:503][  0]LogMemory: Virtual Memory: 4505.97 MB used, 134217728.00 MB total
+[2024.06.05-17.41.41:534][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2024.06.05-17.41.41:963][  0]LogD3D11RHI: Found D3D11 adapter 0: Radeon RX 580 Series (Feature Level 11_0)
+[2024.06.05-17.41.41:963][  0]LogD3D11RHI: Adapter has 8170MB of dedicated video memory, 0MB of dedicated system memory, and 4072MB of shared system memory, 1 output[s]
+[2024.06.05-17.41.41:965][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2024.06.05-17.41.41:965][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4072MB of shared system memory, 0 output[s]
+[2024.06.05-17.41.41:965][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2024.06.05-17.41.41:972][  0]LogD3D11RHI: !Direct3DDevice
+[2024.06.05-17.41.41:973][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2024.06.05-17.41.42:019][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2024.06.05-17.41.42:031][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (F:/Khabar_National_Park_landscape/landscape/Intermediate/Shaders/WorkingDirectory/26600/).
+[2024.06.05-17.41.42:031][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'F:/Khabar_National_Park_landscape/landscape/Intermediate/Shaders/tmp/8B2B6BE545249A245D670CAA251D0C50/'.
+[2024.06.05-17.41.42:031][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2024.06.05-17.41.42:660][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2024.06.05-17.41.42:664][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2024.06.05-17.41.42:668][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2024.06.05-17.41.42:671][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2024.06.05-17.41.42:674][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2024.06.05-17.41.42:676][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2024.06.05-17.41.42:678][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2024.06.05-17.41.42:681][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2024.06.05-17.41.42:683][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2024.06.05-17.41.42:685][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2024.06.05-17.41.42:687][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2024.06.05-17.41.42:689][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2024.06.05-17.41.42:690][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2024.06.05-17.41.42:705][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2024.06.05-17.41.42:705][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2024.06.05-17.41.42:759][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2024.06.05-17.41.42:759][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
+[2024.06.05-17.41.42:759][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Khabar_National_Park_landscape/landscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.06.05-17.41.42:759][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.06.05-17.41.42:759][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.06.05-17.41.42:759][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2024.06.05-17.41.42:771][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2024.06.05-17.41.42:771][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.06.05-17.41.42:771][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.06.05-17.41.42:796][  0]LogModuleManager:Warning: Found module file ../../../Engine/Binaries/Win64/UE4Editor.exe (API version -1), but it was incompatible with the current engine API version (0). This is likely a stale module that must be recompiled.
+[2024.06.05-17.41.42:924][  0]LogInit: Selected Device Profile: [Windows]
+[2024.06.05-17.41.42:946][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2024.06.05-17.41.43:501][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2024.06.05-17.41.43:501][  0]LogMeshUtilities: No automatic mesh merging module available
+[2024.06.05-17.41.45:905][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2024.06.05-17.41.46:541][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.06.05-17.41.46:642][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2024.06.05-17.41.46:700][  0]LogMaterial: Missing cached shader map for material DecalMask, compiling. 
+[2024.06.05-17.41.46:701][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/DecalMask.DecalMask for platform PCD3D_SM5, Default Material will be used in game.
+[2024.06.05-17.41.46:701][  0]LogMaterial:Warning: 	(Node SceneTexture) Decal Mask bit was move out of GBuffer to the stencil buffer for performance optimisation and is therefor no longer available
+[2024.06.05-17.41.46:790][  0]SourceControl: Info Source control is disabled
+[2024.06.05-17.41.46:848][  0]SourceControl: Info Source control is disabled
+[2024.06.05-17.41.46:858][  0]SourceControl: Info Source control is disabled
+[2024.06.05-17.41.46:868][  0]SourceControl: Info Source control is disabled
+[2024.06.05-17.41.47:305][  0]LogObj: 28865 objects as part of root set at end of initial load.
+[2024.06.05-17.41.47:305][  0]LogUObjectAllocator: 6143488 out of 0 bytes used by permanent object pool.
+[2024.06.05-17.41.47:334][  0]LogEngine: Initializing Engine...
+[2024.06.05-17.41.47:335][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2024.06.05-17.41.47:336][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2024.06.05-17.41.47:634][  0]LogAIModule: Creating AISystem for world NewWorld
+[2024.06.05-17.41.47:670][  0]LogInit: XAudio2 using 'Headphones (BTS 210)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2024.06.05-17.41.47:703][  0]LogInit: FAudioDevice initialized.
+[2024.06.05-17.41.47:743][  0]LogDerivedDataCache: Saved boot cache 0.04s 43MB F:/Khabar_National_Park_landscape/landscape/DerivedDataCache/Boot.ddc.
+[2024.06.05-17.41.47:747][  0]LogInit: Texture streaming: Enabled
+[2024.06.05-17.41.47:757][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2024.06.05-17.41.47:757][  0]LogAnalytics: [UEEditor.UnrealEngine.Release] APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.11.0-0+UE4
+[2024.06.05-17.41.47:757][  0]LogAnalytics: [UEEditor.UnrealEngine.Release] SetUserId ac49c5ed495418da19c4659ca953f7f1|8d7a151d86ff47129cfdb6f260d6745e|2e6c2bfe-158d-4ced-a87d-09658539203e
+[2024.06.05-17.41.47:757][  0]LogAnalytics: [UEEditor.UnrealEngine.Release] AnalyticsET::StartSession
+[2024.06.05-17.41.47:763][  0]LogInit: Transaction tracking system initialized
+[2024.06.05-17.41.47:781][  0]BlueprintLog: New page: Editor Load
+[2024.06.05-17.41.47:935][  0]LocalizationService: Info Localization service is disabled
+[2024.06.05-17.41.48:286][  0]LogConsoleResponse:Display: 
+[2024.06.05-17.41.48:411][  0]LogFileCache: Scanning file cache for directory 'F:/Khabar_National_Park_landscape/landscape/Content/' took 0.01s
+[2024.06.05-17.41.48:411][  0]LogCook:Display: Max memory allowance for cook 0mb, MaxMemoryAllowanceInMB
+[2024.06.05-17.41.48:411][  0]LogCook:Display: Mobile HDR setting 1
+[2024.06.05-17.41.48:411][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2024.06.05-17.41.48:458][  0]SourceControl: Info Source control is disabled
+[2024.06.05-17.41.48:761][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 I:/Unreal.Engine.4.11/Unreal Engine 4.11.0 Master/FeaturePacks/StarterContent.upack)
+[2024.06.05-17.41.49:133][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2024.06.05-17.41.49:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2024.06.05-17.41.49:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2024.06.05-17.41.49:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2024.06.05-17.41.49:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2024.06.05-17.41.49:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2024.06.05-17.41.49:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2024.06.05-17.41.49:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2024.06.05-17.41.49:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2024.06.05-17.41.49:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2024.06.05-17.41.49:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2024.06.05-17.41.49:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2024.06.05-17.41.49:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Collapse01.uasset"
+[2024.06.05-17.41.49:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Collapse02.uasset"
+[2024.06.05-17.41.49:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2024.06.05-17.41.49:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Explosion01.uasset"
+[2024.06.05-17.41.49:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Explosion02.uasset"
+[2024.06.05-17.41.49:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2024.06.05-17.41.49:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Fire01.uasset"
+[2024.06.05-17.41.49:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2024.06.05-17.41.49:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2024.06.05-17.41.49:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2024.06.05-17.41.49:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Light01.uasset"
+[2024.06.05-17.41.49:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2024.06.05-17.41.49:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Light02.uasset"
+[2024.06.05-17.41.49:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2024.06.05-17.41.49:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Smoke01.uasset"
+[2024.06.05-17.41.49:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2024.06.05-17.41.49:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2024.06.05-17.41.49:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2024.06.05-17.41.49:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2024.06.05-17.41.49:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2024.06.05-17.41.49:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2024.06.05-17.41.49:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2024.06.05-17.41.50:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Steam01.uasset"
+[2024.06.05-17.41.50:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2024.06.05-17.41.50:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2024.06.05-17.41.50:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2024.06.05-17.41.50:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2024.06.05-17.41.50:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2024.06.05-17.41.50:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2024.06.05-17.41.50:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2024.06.05-17.41.50:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2024.06.05-17.41.50:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2024.06.05-17.41.50:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2024.06.05-17.41.50:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2024.06.05-17.41.50:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2024.06.05-17.41.50:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2024.06.05-17.41.50:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2024.06.05-17.41.50:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2024.06.05-17.41.50:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2024.06.05-17.41.50:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2024.06.05-17.41.51:391][  0]LogPackageName:Warning: String asset reference "EditorMeshes.AnimTreeEd_PreviewFloor" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2024.06.05-17.41.51:391][  0]LogPackageName: SearchForPackageOnDisk took   0.062s, but failed to resolve EditorMeshes.
+[2024.06.05-17.41.51:391][  0]LogPackageName:Warning: String asset reference "EditorMeshes.AnimTreeEd_PreviewFloor" could not be resolved.
+[2024.06.05-17.41.51:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2024.06.05-17.41.51:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2024.06.05-17.41.51:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Maps/Minimal_Default.umap"
+[2024.06.05-17.41.51:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Maps/StarterMap.umap"
+[2024.06.05-17.41.51:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2024.06.05-17.41.51:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2024.06.05-17.41.51:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2024.06.05-17.41.51:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2024.06.05-17.41.51:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2024.06.05-17.41.51:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2024.06.05-17.41.51:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2024.06.05-17.41.51:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2024.06.05-17.41.51:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2024.06.05-17.41.52:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2024.06.05-17.41.52:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2024.06.05-17.41.52:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2024.06.05-17.41.52:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2024.06.05-17.41.52:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2024.06.05-17.41.52:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2024.06.05-17.41.52:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2024.06.05-17.41.52:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2024.06.05-17.41.52:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Glass.uasset"
+[2024.06.05-17.41.52:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2024.06.05-17.41.52:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2024.06.05-17.41.52:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2024.06.05-17.41.52:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2024.06.05-17.41.52:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2024.06.05-17.41.52:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2024.06.05-17.41.52:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2024.06.05-17.41.52:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2024.06.05-17.41.52:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2024.06.05-17.41.52:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2024.06.05-17.41.52:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2024.06.05-17.41.52:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2024.06.05-17.41.52:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2024.06.05-17.41.52:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2024.06.05-17.41.52:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2024.06.05-17.41.52:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2024.06.05-17.41.52:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2024.06.05-17.41.52:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2024.06.05-17.41.52:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2024.06.05-17.41.52:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2024.06.05-17.41.52:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2024.06.05-17.41.52:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2024.06.05-17.41.52:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2024.06.05-17.41.52:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2024.06.05-17.41.52:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2024.06.05-17.41.52:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2024.06.05-17.41.53:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/P_Explosion.uasset"
+[2024.06.05-17.41.53:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/P_Fire.uasset"
+[2024.06.05-17.41.53:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/P_Smoke.uasset"
+[2024.06.05-17.41.53:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/P_Sparks.uasset"
+[2024.06.05-17.41.53:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2024.06.05-17.41.53:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2024.06.05-17.41.53:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2024.06.05-17.41.53:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2024.06.05-17.41.53:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2024.06.05-17.41.53:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2024.06.05-17.41.53:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2024.06.05-17.41.53:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2024.06.05-17.41.53:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2024.06.05-17.41.53:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2024.06.05-17.41.53:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2024.06.05-17.41.53:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/MaterialSphere.uasset"
+[2024.06.05-17.41.53:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_Bush.uasset"
+[2024.06.05-17.41.53:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_Chair.uasset"
+[2024.06.05-17.41.53:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2024.06.05-17.41.53:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_Couch.uasset"
+[2024.06.05-17.41.53:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_Door.uasset"
+[2024.06.05-17.41.53:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2024.06.05-17.41.53:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2024.06.05-17.41.53:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2024.06.05-17.41.53:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2024.06.05-17.41.54:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2024.06.05-17.41.54:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2024.06.05-17.41.54:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2024.06.05-17.41.54:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_Rock.uasset"
+[2024.06.05-17.41.54:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_Shelf.uasset"
+[2024.06.05-17.41.54:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_Stairs.uasset"
+[2024.06.05-17.41.54:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_Statue.uasset"
+[2024.06.05-17.41.54:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_TableRound.uasset"
+[2024.06.05-17.41.54:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2024.06.05-17.41.54:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2024.06.05-17.41.54:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2024.06.05-17.41.54:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2024.06.05-17.41.54:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2024.06.05-17.41.54:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2024.06.05-17.41.54:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2024.06.05-17.41.54:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2024.06.05-17.41.54:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2024.06.05-17.41.54:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2024.06.05-17.41.54:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2024.06.05-17.41.54:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2024.06.05-17.41.54:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2024.06.05-17.41.54:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2024.06.05-17.41.54:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2024.06.05-17.41.54:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2024.06.05-17.41.54:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2024.06.05-17.41.54:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2024.06.05-17.41.54:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2024.06.05-17.41.54:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2024.06.05-17.41.55:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2024.06.05-17.41.55:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2024.06.05-17.41.55:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2024.06.05-17.41.55:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2024.06.05-17.41.55:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2024.06.05-17.41.55:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2024.06.05-17.41.55:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2024.06.05-17.41.55:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2024.06.05-17.41.55:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2024.06.05-17.41.55:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2024.06.05-17.41.55:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2024.06.05-17.41.55:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2024.06.05-17.41.55:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2024.06.05-17.41.55:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2024.06.05-17.41.55:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2024.06.05-17.41.56:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2024.06.05-17.41.56:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2024.06.05-17.41.56:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2024.06.05-17.41.56:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2024.06.05-17.41.56:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2024.06.05-17.41.56:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2024.06.05-17.41.56:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2024.06.05-17.41.56:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2024.06.05-17.41.57:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2024.06.05-17.41.57:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2024.06.05-17.41.57:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2024.06.05-17.41.57:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2024.06.05-17.41.57:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2024.06.05-17.41.57:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2024.06.05-17.41.57:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2024.06.05-17.41.57:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2024.06.05-17.41.57:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2024.06.05-17.41.57:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2024.06.05-17.41.57:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2024.06.05-17.41.58:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2024.06.05-17.41.58:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2024.06.05-17.41.58:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2024.06.05-17.41.58:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2024.06.05-17.41.58:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2024.06.05-17.41.58:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2024.06.05-17.41.58:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2024.06.05-17.41.58:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2024.06.05-17.41.58:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2024.06.05-17.41.59:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2024.06.05-17.41.59:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2024.06.05-17.41.59:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2024.06.05-17.41.59:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2024.06.05-17.41.59:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2024.06.05-17.41.59:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2024.06.05-17.41.59:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2024.06.05-17.41.59:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2024.06.05-17.42.00:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Door_M.uasset"
+[2024.06.05-17.42.00:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Door_N.uasset"
+[2024.06.05-17.42.00:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2024.06.05-17.42.00:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2024.06.05-17.42.00:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2024.06.05-17.42.00:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2024.06.05-17.42.00:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2024.06.05-17.42.00:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2024.06.05-17.42.00:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2024.06.05-17.42.01:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2024.06.05-17.42.01:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2024.06.05-17.42.01:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2024.06.05-17.42.01:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2024.06.05-17.42.01:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2024.06.05-17.42.01:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2024.06.05-17.42.01:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2024.06.05-17.42.01:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2024.06.05-17.42.02:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2024.06.05-17.42.02:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2024.06.05-17.42.02:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2024.06.05-17.42.02:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2024.06.05-17.42.02:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2024.06.05-17.42.02:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2024.06.05-17.42.02:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2024.06.05-17.42.02:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2024.06.05-17.42.02:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2024.06.05-17.42.02:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2024.06.05-17.42.02:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2024.06.05-17.42.02:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2024.06.05-17.42.03:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2024.06.05-17.42.03:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2024.06.05-17.42.03:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2024.06.05-17.42.03:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2024.06.05-17.42.03:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2024.06.05-17.42.03:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2024.06.05-17.42.03:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2024.06.05-17.42.03:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2024.06.05-17.42.03:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2024.06.05-17.42.03:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2024.06.05-17.42.03:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2024.06.05-17.42.03:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2024.06.05-17.42.03:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2024.06.05-17.42.03:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2024.06.05-17.42.03:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2024.06.05-17.42.04:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2024.06.05-17.42.04:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2024.06.05-17.42.04:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2024.06.05-17.42.04:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2024.06.05-17.42.04:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2024.06.05-17.42.04:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2024.06.05-17.42.04:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2024.06.05-17.42.04:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2024.06.05-17.42.04:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2024.06.05-17.42.04:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Water_M.uasset"
+[2024.06.05-17.42.04:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Water_N.uasset"
+[2024.06.05-17.42.04:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2024.06.05-17.42.04:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2024.06.05-17.42.04:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2024.06.05-17.42.04:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2024.06.05-17.42.04:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2024.06.05-17.42.05:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2024.06.05-17.42.05:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2024.06.05-17.42.05:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2024.06.05-17.42.05:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2024.06.05-17.42.05:593][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2024.06.05-17.42.05:614][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2024.06.05-17.42.06:468][  0]LogStaticMesh: Built static mesh [0.85s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2024.06.05-17.42.06:944][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2024.06.05-17.42.08:160][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2024.06.05-17.42.08:197][  0]LogSavePackage: Save=20.76ms
+[2024.06.05-17.42.08:197][  0]LogSavePackage: Moving 'F:/Khabar_National_Park_landscape/landscape/Saved/Floor_400x40042F0E9D7472D17FBB14A2F8735D719A6.tmp' to 'F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2024.06.05-17.42.08:198][  0]LogSavePackage: Total save time: 37.47ms
+[2024.06.05-17.42.08:198][  0]LogSavePackage:Display: Finished SavePackage F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2024.06.05-17.42.08:198][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2024.06.05-17.42.08:198][  0]Cmd: MAP LOAD FILE="F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.06.05-17.42.08:199][  0]LightingResults: New page: Lighting Build
+[2024.06.05-17.42.08:201][  0]MapCheck: New page: Map Check
+[2024.06.05-17.42.08:201][  0]LightingResults: New page: Lighting Build
+[2024.06.05-17.42.08:209][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001ED84C1F6A0
+[2024.06.05-17.42.08:486][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2024.06.05-17.42.08:610][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2024.06.05-17.42.08:617][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2024.06.05-17.42.08:694][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2024.06.05-17.42.08:699][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2024.06.05-17.42.08:705][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2024.06.05-17.42.08:725][  0]LogStaticMesh: Building static mesh SM_Chair...
+[2024.06.05-17.42.08:738][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2024.06.05-17.42.08:739][  0]LogStaticMesh: Building static mesh SM_Statue...
+[2024.06.05-17.42.08:768][  0]LogStaticMesh: Built static mesh [0.03s] /Game/StarterContent/Props/SM_Statue.SM_Statue
+[2024.06.05-17.42.08:770][  0]LogStaticMesh: Building static mesh SM_TableRound...
+[2024.06.05-17.42.08:802][  0]LogStaticMesh: Built static mesh [0.03s] /Game/StarterContent/Props/SM_TableRound.SM_TableRound
+[2024.06.05-17.42.08:881][  0]LogTexture:Display: Building textures: T_TableRound_N (BC5)
+[2024.06.05-17.42.09:306][  0]LogTexture:Display: Building textures: T_TableRound_M (DXT1)
+[2024.06.05-17.42.09:799][  0]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2024.06.05-17.42.09:848][  0]LogTexture:Display: Building textures: T_Statue_N (BC5)
+[2024.06.05-17.42.09:999][  0]LogTexture:Display: Building textures: T_Statue_M (AutoDXT)
+[2024.06.05-17.42.10:503][  0]LogMaterial: Missing cached shader map for material M_Statue, compiling. 
+[2024.06.05-17.42.10:519][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Starter_Wind06...
+[2024.06.05-17.42.10:805][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Starter_Wind05...
+[2024.06.05-17.42.10:996][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Starter_Birds01...
+[2024.06.05-17.42.11:209][  0]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2024.06.05-17.42.11:315][  0]LogTexture:Display: Building textures: T_Chair_N (BC5)
+[2024.06.05-17.42.11:768][  0]LogTexture:Display: Building textures: T_Chair_M (AutoDXT)
+[2024.06.05-17.42.12:601][  0]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2024.06.05-17.42.12:732][  0]LogTexture:Display: Building textures: T_Metal_Copper_D (AutoDXT)
+[2024.06.05-17.42.16:016][  0]LogTexture:Display: Building textures: T_Metal_Gold_N (BC5)
+[2024.06.05-17.42.16:564][  0]LogTexture:Display: Building textures: T_MacroVariation (AutoDXT)
+[2024.06.05-17.42.19:963][  0]LogMaterial: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2024.06.05-17.42.20:136][  0]LogTexture:Display: Building textures: T_Metal_Aluminum_D (AutoDXT)
+[2024.06.05-17.42.23:328][  0]LogMaterial: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2024.06.05-17.42.23:339][  0]LogMaterial: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2024.06.05-17.42.23:351][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.06.05-17.42.23:420][  0]LogTexture:Display: Building textures: S_AudioComponent_AutoActivate (BGRA8)
+[2024.06.05-17.42.23:432][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.06.05-17.42.23:432][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.06.05-17.42.23:459][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.636ms to complete.
+[2024.06.05-17.42.23:459][  0]LogFileHelpers: Loading map 'Minimal_Default' took 15.261
+[2024.06.05-17.42.24:456][  0]LogCollectionManager: Loaded 0 collections in 0.001009 seconds
+[2024.06.05-17.42.24:701][  0]LogFileCache: Scanning file cache for directory 'F:/Khabar_National_Park_landscape/landscape/Saved/Collections/' took 0.01s
+[2024.06.05-17.42.24:701][  0]LogFileCache: Scanning file cache for directory 'F:/Khabar_National_Park_landscape/landscape/Content/Developers/HOSSEIN/Collections/' took 0.01s
+[2024.06.05-17.42.24:701][  0]LogFileCache: Scanning file cache for directory 'F:/Khabar_National_Park_landscape/landscape/Content/Collections/' took 0.01s
+[2024.06.05-17.42.24:701][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2024.06.05-17.42.24:708][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 1887 classes and 326 folders.
+[2024.06.05-17.42.24:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.06.05-17.42.24:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.06.05-17.42.24:819][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2024.06.05-17.42.24:856][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.06.05-17.42.26:368][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.06.05-17.42.26:563][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2024.06.05-17.42.26:977][  0]LogStaticMesh: Building static mesh Sphere...
+[2024.06.05-17.42.26:983][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/BasicShapes/Sphere.Sphere
+[2024.06.05-17.42.27:002][  0]LogStaticMesh: Building static mesh Cylinder...
+[2024.06.05-17.42.27:006][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/BasicShapes/Cylinder.Cylinder
+[2024.06.05-17.42.27:012][  0]LogStaticMesh: Building static mesh Cone...
+[2024.06.05-17.42.27:030][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/BasicShapes/Cone.Cone
+[2024.06.05-17.42.27:158][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2024.06.05-17.42.27:395][  0]LogTexture:Display: Building textures: Blueprint_64x (BGRA8)
+[2024.06.05-17.42.27:396][  0]LogTexture:Display: Building textures: icon_Editor_Preferences_General_40x (BGRA8)
+[2024.06.05-17.42.27:397][  0]LogTexture:Display: Building textures: Paper2DSprite_TutorialIcon (BGRA8)
+[2024.06.05-17.42.27:397][  0]LogTexture:Display: Building textures: icon_ShowSkeletalMeshes_40x (BGRA8)
+[2024.06.05-17.42.27:399][  0]LogTexture:Display: Building textures: Landscape (BGRA8)
+[2024.06.05-17.42.27:400][  0]LogTexture:Display: Building textures: Foliage (BGRA8)
+[2024.06.05-17.42.27:467][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2024.06.05-17.42.27:467][  0]LogLoad: Full Startup: 46.44 seconds (BP compile: 0.03 seconds)
+[2024.06.05-17.42.28:096][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.06.05-17.42.28:120][  0]LogShaderCompilers:Warning: Failed to compile Material /Game/StarterContent/Props/Materials/M_StatueGlass.M_StatueGlass for platform PCD3D_SM5, Default Material will be used in game.
+[2024.06.05-17.42.28:168][  0]LogTexture:Display: Building textures: icon_tab_Levels_40x (BGRA8)
+[2024.06.05-17.42.28:265][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
+[2024.06.05-17.42.28:267][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2024.06.05-17.42.28:703][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:3).
+[2024.06.05-17.42.28:799][  1]LogAssetRegistry: Asset discovery search completed in 42.1793 seconds
+[2024.06.05-17.42.28:799][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2024.06.05-17.42.28:799][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2024.06.05-17.42.40:088][278]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2024.06.05-17.42.40:900][278]LogDerivedDataCache:Warning: ../../../Engine/DerivedDataCache access is very slow (0.01MB/s), consider disabling it.
+[2024.06.05-17.42.40:900][278]LogDerivedDataCache:Warning: ../../../Engine/DerivedDataCache access is very slow (0.09MB/s), consider disabling it.
+[2024.06.05-17.42.40:900][278]LogDerivedDataCache:Warning: ../../../Engine/DerivedDataCache access is very slow (0.02MB/s), consider disabling it.
+[2024.06.05-17.42.42:081][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2024.06.05-17.42.42:961][477]Cmd: DELETE
+[2024.06.05-17.42.42:961][477]Cmd: ACTOR DELETE
+[2024.06.05-17.42.43:032][477]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.05-17.42.43:091][477]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2024.06.05-17.42.44:056][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2024.06.05-17.42.44:350][608]Cmd: DELETE
+[2024.06.05-17.42.44:350][608]Cmd: ACTOR DELETE
+[2024.06.05-17.42.44:350][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.05-17.42.44:359][608]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2024.06.05-17.42.44:887][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2024.06.05-17.42.45:082][684]Cmd: DELETE
+[2024.06.05-17.42.45:083][684]Cmd: ACTOR DELETE
+[2024.06.05-17.42.45:083][684]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.05-17.42.45:092][684]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2024.06.05-17.42.45:893][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2024.06.05-17.42.46:008][785]Cmd: DELETE
+[2024.06.05-17.42.46:008][785]Cmd: ACTOR DELETE
+[2024.06.05-17.42.46:008][785]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.05-17.42.46:017][785]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2024.06.05-17.42.49:063][127]Cmd: ACTOR SELECT ALL
+[2024.06.05-17.42.50:250][258]Cmd: DELETE
+[2024.06.05-17.42.50:250][258]Cmd: ACTOR DELETE
+[2024.06.05-17.42.50:250][258]LogEditorActor: Cannot delete special actor Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Brush_1
+[2024.06.05-17.42.50:250][258]LogEditorActor: Cannot delete special actor WorldSettings /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1
+[2024.06.05-17.42.50:251][258]LogEditorActor: Deleted Actor: PostProcessVolume
+[2024.06.05-17.42.50:251][258]LogEditorActor: Deleted Actor: InstancedFoliageActor
+[2024.06.05-17.42.50:251][258]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.05-17.42.50:251][258]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.05-17.42.50:251][258]LogEditorActor: Deleted Actor: AmbientSound
+[2024.06.05-17.42.50:270][258]LogEditorActor: Deleted Actor: AtmosphericFog
+[2024.06.05-17.42.50:271][258]LogEditorActor: Deleted Actor: SkyLight
+[2024.06.05-17.42.50:271][258]LogEditorActor: Deleted Actor: PlayerStart
+[2024.06.05-17.42.52:054][258]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2024.06.05-17.42.52:054][258]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2024.06.05-17.42.52:054][258]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2024.06.05-17.42.52:074][258]LogEditorActor: Deleted 11 Actors (1.824 secs)
+[2024.06.05-17.42.53:884][468]Cmd: TRANSACTION UNDO
+[2024.06.05-17.42.53:885][468]LogEditorTransaction: Undo Delete Actors
+[2024.06.05-17.42.55:414][631]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.42.56:160][711]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.42.56:486][749]LogDerivedDataCache:Warning: ../../../Engine/DerivedDataCache access is very slow (0.00MB/s), consider disabling it.
+[2024.06.05-17.42.56:650][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2024.06.05-17.42.57:384][835]Cmd: DELETE
+[2024.06.05-17.42.57:384][835]Cmd: ACTOR DELETE
+[2024.06.05-17.42.57:385][835]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.05-17.42.57:393][835]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2024.06.05-17.42.57:989][907]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2024.06.05-17.42.58:552][971]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.43.04:910][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2024.06.05-17.43.06:170][877]Cmd: DELETE
+[2024.06.05-17.43.06:170][877]Cmd: ACTOR DELETE
+[2024.06.05-17.43.06:170][877]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.05-17.43.06:179][877]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2024.06.05-17.43.06:826][955]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2024.06.05-17.43.07:084][984]Cmd: DELETE
+[2024.06.05-17.43.07:084][984]Cmd: ACTOR DELETE
+[2024.06.05-17.43.07:084][984]LogEditorActor: Deleted Actor: PlayerStart
+[2024.06.05-17.43.07:092][984]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2024.06.05-17.43.08:865][197]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.43.09:449][265]Cmd: DELETE
+[2024.06.05-17.43.09:449][265]Cmd: ACTOR DELETE
+[2024.06.05-17.43.09:449][265]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2024.06.05-17.43.09:457][265]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2024.06.05-17.43.11:070][459]Cmd: TRANSACTION UNDO
+[2024.06.05-17.43.11:070][459]LogEditorTransaction: Undo Delete Actors
+[2024.06.05-17.43.12:988][677]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2024.06.05-17.43.13:667][747]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.43.14:327][824]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.43.14:685][866]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Starter_Background_Cue)
+[2024.06.05-17.43.16:862][111]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.43.17:747][215]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.43.19:892][470]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.43.21:890][709]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.43.43:128][992]LogTexture:Display: Building textures: WhiteSquareTexture (AutoDXT)
+[2024.06.05-17.43.43:129][992]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2024.06.05-17.43.43:143][992]LogPackageName:Warning: String asset reference "EditorMeshes.AnimTreeEd_PreviewFloor" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow. Please consider resaving package in order to speed-up loading.
+[2024.06.05-17.43.43:201][992]LogPackageName: SearchForPackageOnDisk took   0.058s, but failed to resolve EditorMeshes.
+[2024.06.05-17.43.43:201][992]LogPackageName:Warning: String asset reference "EditorMeshes.AnimTreeEd_PreviewFloor" could not be resolved.
+[2024.06.05-17.43.43:203][992]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2024.06.05-17.43.43:232][992]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2024.06.05-17.43.43:247][992]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2024.06.05-17.43.43:260][992]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2024.06.05-17.43.43:294][992]LogStaticMesh: Building static mesh FlattenPlaneMesh...
+[2024.06.05-17.43.43:303][992]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorLandscapeResources/FlattenPlaneMesh.FlattenPlaneMesh
+[2024.06.05-17.43.43:308][992]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2024.06.05-17.43.43:352][992]LogMaterial: Missing cached shader map for material MirrorPlaneMaterial, compiling. 
+[2024.06.05-17.43.43:363][992]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2024.06.05-17.43.43:368][992]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2024.06.05-17.43.43:375][992]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2024.06.05-17.43.43:380][992]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2024.06.05-17.43.43:388][992]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2024.06.05-17.43.43:395][992]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2024.06.05-17.43.43:400][992]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2024.06.05-17.43.43:438][992]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2024.06.05-17.43.43:439][992]LogTexture:Display: Building textures: LandscapeThumbnailWeightmap (BGRA8)
+[2024.06.05-17.43.43:440][992]LogTexture:Display: Building textures: LandscapeThumbnailHeightmap (BGRA8)
+[2024.06.05-17.44.09:325][298]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2024.06.05-17.44.09:339][298]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2024.06.05-17.44.09:350][298]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2024.06.05-17.44.09:361][298]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2024.06.05-17.44.09:371][298]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2024.06.05-17.44.09:380][298]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2024.06.05-17.44.09:389][298]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2024.06.05-17.44.09:399][298]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2024.06.05-17.44.09:408][298]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2024.06.05-17.44.09:418][298]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2024.06.05-17.44.09:427][298]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2024.06.05-17.44.09:436][298]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2024.06.05-17.44.09:444][298]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2024.06.05-17.44.09:453][298]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2024.06.05-17.44.09:463][298]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2024.06.05-17.44.09:472][298]LogTexture:Display: Building textures: Texture2D_18 (BGRA8)
+[2024.06.05-17.44.09:479][298]LogTexture:Display: Building textures: Texture2D_19 (BGRA8)
+[2024.06.05-17.44.09:483][298]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2024.06.05-17.44.09:489][298]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2024.06.05-17.44.09:493][298]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2024.06.05-17.44.09:569][299]Cmd: UpdateLandscapeEditorData
+[2024.06.05-17.44.29:358][452]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2024.06.05-17.44.32:054][645]LogDerivedDataCache:Warning: ../../../Engine/DerivedDataCache access is very slow (0.05MB/s), consider disabling it.
+[2024.06.05-17.44.32:054][645]LogDerivedDataCache:Warning: ../../../Engine/DerivedDataCache access is very slow (0.01MB/s), consider disabling it.
+[2024.06.05-17.44.32:369][662]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.44.32:402][662]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.44.32:998][725]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.44.37:193][106]LogDerivedDataCache:Warning: ../../../Engine/DerivedDataCache access is very slow (0.00MB/s), consider disabling it.
+[2024.06.05-17.44.39:345][296]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.44.47:731][ 59]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.44.47:770][ 60]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.44.48:270][113]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.44.51:001][365]LogDerivedDataCache:Warning: ../../../Engine/DerivedDataCache access is very slow (0.01MB/s), consider disabling it.
+[2024.06.05-17.45.00:346][270]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2024.06.05-17.45.05:694][737]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.09:265][ 68]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.11:766][317]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.13:397][467]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.21:902][242]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2024.06.05-17.45.26:458][654]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.31:069][993]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.35:762][413]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.40:635][854]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2024.06.05-17.45.41:045][882]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2024.06.05-17.45.41:083][882]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2024.06.05-17.45.41:624][938]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.41:668][938]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.43:364][ 84]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.45:010][208]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.52:785][962]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.53:112][993]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.53:147][993]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.58:268][519]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.45.58:300][519]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (Sky Sphere mesh)
+[2024.06.05-17.46.01:742][874]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (Sky Sphere mesh)
+[2024.06.05-17.46.24:902][977]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2024.06.05-17.46.33:839][856]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (Sky Sphere mesh)
+[2024.06.05-17.46.49:062][657]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2024.06.05-17.46.59:442][856]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2024.06.05-17.46.59:450][856]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2024.06.05-17.47.01:376][856]LogSavePackage: Save=1972.63ms
+[2024.06.05-17.47.01:376][856]LogSavePackage: Moving 'F:/Khabar_National_Park_landscape/landscape/Saved/Minimal_Default4B7482D941D6AB022DC2ECA56C7D6E71.tmp' to 'F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.06.05-17.47.01:377][856]LogSavePackage: Total save time: 1975.35ms
+[2024.06.05-17.47.01:377][856]LogSavePackage:Display: Finished SavePackage F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Maps/Minimal_Default.umap
+[2024.06.05-17.47.16:975][460]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2024.06.05-17.47.24:546][259]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2024.06.05-17.47.36:888][626]LogRenderer: Reallocating scene render targets to support 1208x796 (Frame:28178).
+[2024.06.05-17.47.40:505][994]LogRenderer: Reallocating scene render targets to support 1416x796 (Frame:28477).
+[2024.06.05-17.48.12:771][841]Cmd: TRANSACTION UNDO
+[2024.06.05-17.48.12:771][841]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2024.06.05-17.48.35:530][501]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2024.06.05-17.48.47:601][542]Cmd: TRANSACTION UNDO
+[2024.06.05-17.48.47:601][542]LogEditorTransaction: Undo Set actor scale
+[2024.06.05-17.48.47:601][542]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2024.06.05-17.48.48:411][592]Cmd: TRANSACTION UNDO
+[2024.06.05-17.48.48:411][592]LogEditorTransaction: Undo Set Actor Visibility
+[2024.06.05-17.48.48:430][592]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2024.06.05-17.48.48:455][593]Cmd: UpdateLandscapeEditorData
+[2024.06.05-17.48.50:862][873]Cmd: TRANSACTION UNDO
+[2024.06.05-17.48.50:862][873]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.48.51:271][922]Cmd: TRANSACTION UNDO
+[2024.06.05-17.48.51:271][922]LogEditorTransaction: Undo Set Actor Visibility
+[2024.06.05-17.48.51:272][922]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2024.06.05-17.48.51:295][923]Cmd: UpdateLandscapeEditorData
+[2024.06.05-17.48.55:987][268]Cmd: TRANSACTION UNDO
+[2024.06.05-17.48.55:987][268]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.48.56:597][313]Cmd: TRANSACTION UNDO
+[2024.06.05-17.48.56:597][313]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.48.58:847][463]Cmd: TRANSACTION UNDO
+[2024.06.05-17.48.58:847][463]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.48.59:299][493]Cmd: TRANSACTION UNDO
+[2024.06.05-17.48.59:299][493]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2024.06.05-17.49.01:481][639]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.01:481][639]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.49.01:876][665]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.01:876][665]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.49.03:228][756]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.03:228][756]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.49.03:490][774]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.03:490][774]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2024.06.05-17.49.05:350][899]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.05:350][899]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.49.05:574][914]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.05:574][914]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2024.06.05-17.49.06:969][  8]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.06:969][  8]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.49.08:505][113]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.08:505][113]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.49.12:065][350]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.49.13:439][493]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.49.16:259][730]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2024.06.05-17.49.17:257][789]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2024.06.05-17.49.17:835][835]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.17:835][835]LogEditorTransaction: Undo Edit Mobility
+[2024.06.05-17.49.17:837][835]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2024.06.05-17.49.19:105][923]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.19:105][923]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2024.06.05-17.49.27:367][585]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (Sky Sphere mesh)
+[2024.06.05-17.49.31:145][862]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.31:145][862]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2024.06.05-17.49.32:702][967]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.32:702][967]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2024.06.05-17.49.33:119][993]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.33:119][993]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2024.06.05-17.49.33:428][ 12]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.33:428][ 12]LogEditorTransaction: Undo Clicking on Component (context menu)
+[2024.06.05-17.49.33:769][ 34]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.33:769][ 34]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2024.06.05-17.49.34:121][ 56]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.34:121][ 56]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2024.06.05-17.49.34:406][ 74]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.34:406][ 74]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.49.34:656][ 90]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.34:656][ 90]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.49.35:088][118]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.35:088][118]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.49.35:415][139]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.35:415][139]LogEditorTransaction: Undo Edit Mobility
+[2024.06.05-17.49.35:416][139]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2024.06.05-17.49.35:668][155]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.35:668][155]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2024.06.05-17.49.35:873][168]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.35:873][168]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2024.06.05-17.49.36:055][180]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.36:055][180]LogEditorTransaction: Undo Clicking on Actors
+[2024.06.05-17.49.49:192][229]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.49.51:440][446]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2024.06.05-17.49.55:609][939]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.49.55:655][939]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2024.06.05-17.49.56:079][984]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2024.06.05-17.49.58:060][181]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.58:060][181]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2024.06.05-17.49.59:035][250]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.59:035][250]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2024.06.05-17.49.59:309][268]Cmd: TRANSACTION UNDO
+[2024.06.05-17.49.59:309][268]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2024.06.05-17.50.35:892][290]Cmd: MODE GRID=0
+[2024.06.05-17.51.10:418][196]LogSavePackage: Save=668.55ms
+[2024.06.05-17.51.10:418][196]LogSavePackage: Moving 'F:/Khabar_National_Park_landscape/landscape/Saved/Minimal_DefaultF5B6D9D0448ECB5B5C61BEB86A5DF9CB.tmp' to 'F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.06.05-17.51.10:422][196]LogSavePackage: Total save time: 672.69ms
+[2024.06.05-17.51.10:422][196]LogSavePackage:Display: Finished SavePackage F:/Khabar_National_Park_landscape/landscape/Content/StarterContent/Maps/Minimal_Default.umap
+[2024.06.05-17.51.12:017][324]Cmd: QUIT_EDITOR
+[2024.06.05-17.51.12:053][324]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2024.06.05-17.51.12:084][324]LogExit: Preparing to exit.
+[2024.06.05-17.51.12:978][324]LogExit: Editor shut down
+[2024.06.05-17.51.12:979][324]LogExit: Transaction tracking system shut down
+[2024.06.05-17.51.12:979][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001ED83C953A0
+[2024.06.05-17.51.12:981][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EDA34F8900
+[2024.06.05-17.51.12:981][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EDA2E0E160
+[2024.06.05-17.51.12:981][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001ED9624D800
+[2024.06.05-17.51.13:081][324]LogExit: Object subsystem successfully closed.
+[2024.06.05-17.51.13:095][324]LogD3D11RHI: Shutdown
+[2024.06.05-17.51.13:095][324]LogD3D11RHI: CleanupD3DDevice
+[2024.06.05-17.51.13:097][324]LogD3D11RHI: ~FD3D11DynamicRHI
+[2024.06.05-17.51.13:113][324]LogDerivedDataCache: Shutdown
+[2024.06.05-17.51.13:123][324]LogModuleManager: Shutting down and abandoning module PortalProxies (199)
+[2024.06.05-17.51.13:123][324]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (198)
+[2024.06.05-17.51.13:123][324]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2024.06.05-17.51.13:123][324]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2024.06.05-17.51.13:123][324]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2024.06.05-17.51.13:123][324]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2024.06.05-17.51.13:123][324]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module GameplayTags (192)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module EditorWidgets (191)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module CollectionManager (190)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module StatsViewer (189)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module FoliageEdit (188)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module LandscapeEditor (187)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module ActorPickerMode (186)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module GeometryMode (185)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module TextureAlignMode (184)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module BspMode (183)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module PlacementMode (182)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module AutomationWorker (181)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module CharacterAI (180)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module SmartSnapping (179)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module ViewportSnapping (178)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module LogVisualizer (177)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (176)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module IntroTutorials (175)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (174)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (173)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (172)
+[2024.06.05-17.51.13:124][324]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (171)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (170)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (169)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (168)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module MergeActors (167)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module SizeMap (166)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module TreeMap (165)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module ReferenceViewer (164)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module LocalizationService (163)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (162)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module HardwareTargeting (161)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (160)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module UndoHistory (159)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (158)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module UserFeedback (157)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module XmlParser (156)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module Blutility (155)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (154)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (153)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module InputBindingEditor (152)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (151)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module SettingsEditor (150)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module ProjectLauncher (149)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module SessionFrontend (148)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module ProfilerClient (147)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (146)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module DeviceManager (145)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module AutomationController (144)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module AutomationWindow (143)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module Layers (142)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (141)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module DetailCustomizations (140)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module PackagesDialog (139)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module Persona (138)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module Kismet (137)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module GraphEditor (136)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module ClassViewer (135)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module Toolbox (134)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module ModuleUI (133)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module MovieSceneTools (132)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module OutputLog (131)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module GammaUI (130)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module Documentation (129)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (128)
+[2024.06.05-17.51.13:558][324]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (127)
+[2024.06.05-17.51.13:559][324]LogModuleManager: Shutting down and abandoning module AnalyticsET (126)
+[2024.06.05-17.51.13:559][324]LogModuleManager: Shutting down and abandoning module Analytics (125)
+[2024.06.05-17.51.13:559][324]LogModuleManager: Shutting down and abandoning module PortalServices (124)
+[2024.06.05-17.51.13:559][324]LogModuleManager: Shutting down and abandoning module PortalRpc (123)
+[2024.06.05-17.51.13:559][324]LogModuleManager: Shutting down and abandoning module MessagingRpc (122)
+[2024.06.05-17.51.13:559][324]LogModuleManager: Shutting down and abandoning module AITestSuite (121)
+[2024.06.05-17.51.13:559][324]LogModuleManager: Shutting down and abandoning module GameplayDebugger (120)
+[2024.06.05-17.51.13:559][324]LogModuleManager: Shutting down and abandoning module AIModule (119)
+[2024.06.05-17.51.13:559][324]LogModuleManager: Shutting down and abandoning module ProfilerService (118)
+[2024.06.05-17.51.13:795][324]LogModuleManager: Shutting down and abandoning module TaskGraph (117)
+[2024.06.05-17.51.13:795][324]LogModuleManager: Shutting down and abandoning module SlateRemote (116)
+[2024.06.05-17.51.13:795][324]LogModuleManager: Shutting down and abandoning module SteamVRController (115)
+[2024.06.05-17.51.13:795][324]LogModuleManager: Shutting down and abandoning module SteamVR (114)
+[2024.06.05-17.51.13:795][324]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (113)
+[2024.06.05-17.51.13:795][324]LogModuleManager: Shutting down and abandoning module OculusRift (112)
+[2024.06.05-17.51.13:795][324]LogModuleManager: Shutting down and abandoning module OculusLibrary (111)
+[2024.06.05-17.51.13:795][324]LogModuleManager: Shutting down and abandoning module LeapMotionController (110)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (109)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module CableComponent (108)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (107)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module MessagingDebugger (106)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (105)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module HTML5Networking (104)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (103)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module PluginBrowser (102)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module EpicSurvey (101)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module DesktopPlatform (100)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (99)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module UObjectPlugin (98)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (97)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (96)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module SourceControl (95)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module GitSourceControl (94)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (93)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (92)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (91)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module MeshPaint (90)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module SlateReflector (89)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module MainFrame (87)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module LevelEditor (86)
+[2024.06.05-17.51.13:822][324]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (85)
+[2024.06.05-17.51.13:823][324]LogModuleManager: Shutting down and abandoning module AssetRegistry (84)
+[2024.06.05-17.51.13:963][324]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2024.06.05-17.51.13:964][324]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2024.06.05-17.51.13:964][324]LogModuleManager: Shutting down and abandoning module UdpMessaging (81)
+[2024.06.05-17.51.14:065][324]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (80)
+[2024.06.05-17.51.14:065][324]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2024.06.05-17.51.14:065][324]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2024.06.05-17.51.14:065][324]LogModuleManager: Shutting down and abandoning module Media (77)
+[2024.06.05-17.51.14:065][324]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (74)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2024.06.05-17.51.14:067][324]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2024.06.05-17.51.14:068][324]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2024.06.05-17.51.14:068][324]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2024.06.05-17.51.14:068][324]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2024.06.05-17.51.14:068][324]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2024.06.05-17.51.14:069][324]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2024.06.05-17.51.14:069][324]LogModuleManager: Shutting down and abandoning module Core (55)
+[2024.06.05-17.51.14:069][324]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2024.06.05-17.51.14:069][324]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2024.06.05-17.51.14:069][324]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2024.06.05-17.51.14:069][324]LogModuleManager: Shutting down and abandoning module CookingStats (51)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module DerivedDataCache (50)
+[2024.06.05-17.51.14:073][324]LogDerivedDataCache: Shutdown
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (48)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (47)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (45)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (40)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module Messaging (36)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (35)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (34)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (33)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (32)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (31)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (30)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (29)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (28)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (27)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (22)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2024.06.05-17.51.14:073][324]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2024.06.05-17.51.20:579][324]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2024.06.05-17.51.20:580][324]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2024.06.05-17.51.20:582][324]LogExit: Exiting.
+[2024.06.05-17.51.20:587][324]Log file closed, 06/05/24 21:21:20
